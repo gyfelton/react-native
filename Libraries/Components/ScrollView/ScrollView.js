@@ -265,7 +265,7 @@ const ScrollView = createReactClass({
     onContentSizeChange: PropTypes.func,
     /**
      * When true, the scroll view stops on multiples of the scroll view's size
-     *
+     * when scrolling. The default value is false.
      */
     pagingEnabled: PropTypes.bool,
     /**
