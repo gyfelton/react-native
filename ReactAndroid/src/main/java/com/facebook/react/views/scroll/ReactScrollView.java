@@ -426,7 +426,8 @@ public class ReactScrollView extends ScrollView implements ReactClippingViewGrou
       }
     }
     return mReactBackgroundDrawable;
-
+  }
+  
   /**
    * This handles any sort of scrolling that may occur after a touch is finished.  This may be
    * momentum scrolling (fling) or because you have pagingEnabled on the scroll view.  Because we
